@@ -1,20 +1,22 @@
 <html>
 
-<head></head>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
     <img src="img/로고이미지.jpg"" alt=" 로고이미지" width="50px">
     <input type="search" value="검색">
-    <div>
-        <img src="img/프로필.jpg"" alt=" 프로필 이미지" width="50px">
+        <div id="profile">
+            <div id="profile_pic">
+            <img class="circle_pic" src="img/프로필.jpg"" alt=" 프로필 이미지">
+        </div>
     </div>
+        <div>
+            <h2>half_bottle</h2>
+            <button>프로필 편집</button>
+        </div>
     <div>
-
-        <h2>half_bottle</h2>
-        <button>프로필 편집</button>
-    </div>
-    <div>
-
         <p>
             <strong>
                 최향심
@@ -28,30 +30,39 @@
     </div>
     </p>
     <div>
-        <div>
-            <img src="img/h1.jpg"" height=" 35px">
+        <div class="highlight_area">
+            <div class="highlight_pic">
+                <img class="circle_pic" src="img/h1.jpg">
+            </div>
+            <div>
+                🥰
+            </div>
         </div>
-        <div>
-            🥰
-        </div>
-        <div>
-            <img src="img/h2.jpg"" height=" 35px">
-        </div>
-        <div>
-            😎
+        <div class="highlight">
+            <div class="highlight_pic">
+                <img class="circle_pic" src="img/h2.jpg">
+            </div>
+            <div>
+                😎
+            </div>
         </div>
     </div>
-    <div>
 
-        <p>
+    <div id="stat_bar">
+        <div class="stat">
             게시물<br />
+            133
+        </div>
+        <div class="stat">
             팔로워<br />
+            408
+        </div>
+        <div class="stat">
             팔로우<br />
-            133<br />
-            408<br />
-            189<br />
-        </p>
+            189
+        </div>
     </div>
+
     <div>아이콘이 들어갈 자리</div>
     <div>
         <img src="img/thumbnails/1.jpg" width="32%">
